@@ -18,7 +18,7 @@ describe("Worker", () => {
   it("tests worker", async () => {
     const { status, url, redirected } = await worker.fetch();
     expect(status).toBe(200);
-    expect(url).toBe("https://example.com/");
+    expect(url).toBe("https://twitter.com/cloudflare");
     expect(redirected).toBe(true);
   });
 });
